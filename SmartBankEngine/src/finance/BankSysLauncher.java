@@ -6,8 +6,8 @@ public class BankSysLauncher {
 	public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        BankCustomer user = new BankCustomer("12345", "pass123", 50000);
-        BankCustomer receiver = new BankCustomer("67890", "pass456", 30000);
+        BankCustomer user = new BankCustomer("ABBCD", "Pass123", 50000);
+        BankCustomer receiver = new BankCustomer("67890", "443pwd", 30000);
 
         BankingOperations transaction = new AccountOperations();
         OTPManager otp = new OTPManager();
