@@ -1,4 +1,4 @@
-# SmartBankEngine
+# Smart-Bank-Engine
 A Java-based console banking simulation system developed using Object-Oriented Programming principles.
 
 ## Features
